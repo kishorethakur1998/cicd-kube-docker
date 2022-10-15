@@ -1,0 +1,5 @@
+/home/raj/Handson/docker images/cicd-kube-docker/src/test/java/com/visualpathit/account/setup/StandaloneMvcTestViewResolver.java
+/home/raj/Handson/docker images/cicd-kube-docker/src/test/java/com/visualpathit/account/modelTest/UserTest.java
+/home/raj/Handson/docker images/cicd-kube-docker/src/test/java/com/visualpathit/account/modelTest/RoleTest.java
+/home/raj/Handson/docker images/cicd-kube-docker/src/test/java/com/visualpathit/account/controllerTest/SampleTest.java
+/home/raj/Handson/docker images/cicd-kube-docker/src/test/java/com/visualpathit/account/controllerTest/UserControllerTest.java
