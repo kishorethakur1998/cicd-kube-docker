@@ -1,0 +1,25 @@
+version: '3'
+services: 
+  db:
+    image: 251219981642/demodb:v1
+    ports:
+      - "3306:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment:
+      - MySQL_ROOT_PASSWORD=admin@123
+  
+  app:
+    image: 251219981642/demoapp:v1
+    ports:
+      - "8080:8080"
+    volumes:
+      - appdata:/usr/local/tomcat/webapps
+  
+  web:
+    image: 251219981642/demoweb:v1
+    ports:
+      - "80:80"
+volumes:
+- dbdata: {}
+- appdata: {}
