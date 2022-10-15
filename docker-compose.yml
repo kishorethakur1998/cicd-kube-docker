@@ -12,7 +12,7 @@ services:
   app:
     image: 251219981642/demoapp:v1
     ports:
-      - "8081:8081"
+      - "8080:8080"
     volumes:
       - appdata:/usr/local/tomcat/webapps
   
